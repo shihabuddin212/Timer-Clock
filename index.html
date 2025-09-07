@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="light-theme">
+    <div class="container">
+        <div class="controls">
+            <button class="toggle-btn" id="themeToggle">🌙 Dark Theme</button>
+            <button class="toggle-btn" id="formatToggle">24 Hour Format</button>
+        </div>
+        
+        <div class="clock-container">
+            <div class="clock">
+                <!-- Hour markers -->
+                <div class="hour-marker" style="transform: rotate(0deg) translateX(-50%);"></div>
+                <div class="hour-marker" style="transform: rotate(30deg) translateX(-50%);"></div>
+                <div class="hour-marker" style="transform: rotate(60deg) translateX(-50%);"></div>
+                <div class="hour-marker" style="transform: rotate(90deg) translateX(-50%);"></div>
+                <div class="hour-marker" style="transform: rotate(120deg) translateX(-50%);"></div>
+                <div class="hour-marker" style="transform: rotate(150deg) translateX(-50%);"></div>
+                <div class="hour-marker" style="transform: rotate(180deg) translateX(-50%);"></div>
+                <div class="hour-marker" style="transform: rotate(210deg) translateX(-50%);"></div>
+                <div class="hour-marker" style="transform: rotate(240deg) translateX(-50%);"></div>
+                <div class="hour-marker" style="transform: rotate(270deg) translateX(-50%);"></div>
+                <div class="hour-marker" style="transform: rotate(300deg) translateX(-50%);"></div>
+                <div class="hour-marker" style="transform: rotate(330deg) translateX(-50%);"></div>
+                
+                <!-- Clock numbers -->
+                <div class="number number-12">12</div>
+                <div class="number number-3">3</div>
+                <div class="number number-6">6</div>
+                <div class="number number-9">9</div>
+                
+                <!-- Clock hands -->
+                <div class="hand hour-hand" id="hourHand"></div>
+                <div class="hand minute-hand" id="minuteHand"></div>
+                <div class="hand second-hand" id="secondHand"></div>
+            </div>
+        </div>
+        
+        <div class="digital-clock">
+            <div class="digital-time" id="digitalTime">00:00:00</div>
+            <div class="digital-date" id="digitalDate">Monday, January 1</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
