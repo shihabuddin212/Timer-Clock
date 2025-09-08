@@ -1,6 +1,7 @@
 # Timer Clock ⏰
 
 A beautiful, responsive analog and digital clock website built with pure HTML, CSS, and JavaScript.
+https://shihabuddin212.github.io/Timer-Clock/
 
 ![Clock Preview](https://img.shields.io/badge/Status-Complete-brightgreen)
 ![HTML](https://img.shields.io/badge/HTML-5-orange)
@@ -89,3 +90,4 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 ---
 
 ⭐ **If you found this project helpful, please give it a star!** ⭐
+
